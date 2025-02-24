@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* display: block; */
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 1px;
+    margin: 100px auto 32px;
+    width: 480px;
+    height: 480px;
+    
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+button{
+    padding: 8px;
+}
+
+
+.hover {
+    background-color: black;    
+}
